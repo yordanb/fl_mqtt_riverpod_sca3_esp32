@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="fl_mqtt_riv_gorouter"
         android:name="${applicationName}"
